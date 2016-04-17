@@ -1,3 +1,97 @@
-h1  {
-  color: red;
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  background-image:url("gandalf.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.container {
+  margin: 20px;
+}
+.buffer {
+  height: 50px;
+}
+nav {
+  position: fixed;
+  z-index: 99;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(78, 170, 215);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li {
+  border: 1px solid black;
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: rgb(57, 129, 163);
+}
+section {
+  width: 85%;
+  margin: auto;
+  border: 3px solid rgb(66, 89, 134);
+  border-radius: 10px 50px 10px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 5px #425986;
+  padding: 30px;
+  background-color: rgba(166, 223, 227, 0.5);
+}
+section ul {
+  list-style-type: none;
+}
+li img {
+  height: 15px;
+  width: auto;
+  margin-right: 7px;
+  border-radius: 100%;
+}
+.family {
+  display: flex;
+  justify-content: space-around;
+}
+.family img {
+  border: 2px solid rgb(66, 89, 134);
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #425986;
+}
+.family p {
+  width: 25%;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+}
+.spongebob:hover,
+.clickme:hover {
+  cursor: pointer;
+}
+.spongebob {
+  width: 200px;
+  height: auto;
+}
+.happy {
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #425986;
+}
+footer {
+  height: 400px;
 }
